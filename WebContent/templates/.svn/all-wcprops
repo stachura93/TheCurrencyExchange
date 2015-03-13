@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/4/trunk/WebContent/templates
+END
+footer.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/7/trunk/WebContent/templates/footer.xhtml
+END
+messages.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/WebContent/templates/messages.xhtml
+END
+header.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/7/trunk/WebContent/templates/header.xhtml
+END
+debug.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/WebContent/templates/debug.xhtml
+END
+rightnav.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/WebContent/templates/rightnav.xhtml
+END
+layout.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/7/trunk/WebContent/templates/layout.xhtml
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/src/main/java/org/stachura/TheCurrencyExchange/user/dao
+END
+IUserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/src/main/java/org/stachura/TheCurrencyExchange/user/dao/IUserDAO.java
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/6/trunk/src/main/java/org/stachura/TheCurrencyExchange/user/dao/UserDAO.java
+END

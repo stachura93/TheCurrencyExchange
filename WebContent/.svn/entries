@@ -1,0 +1,104 @@
+10
+
+dir
+4
+https://currencyexchange1.googlecode.com/svn/trunk/WebContent
+https://currencyexchange1.googlecode.com/svn
+
+
+
+2015-03-10T22:45:19.420824Z
+4
+bs.mlody2030@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0996b305-e2d8-3e96-3a33-e03e017090d0
+
+META-INF
+dir
+
+WEB-INF
+dir
+
+css
+dir
+
+images
+dir
+
+index.xhtml
+file
+7
+
+
+
+2015-03-12T20:09:51.000000Z
+a3f9c163a5b210b6173333750049a6e1
+2015-03-12T20:13:08.882875Z
+7
+bs.mlody2030@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+213
+
+pages
+dir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
+templates
+dir
+
+view
+dir
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+    version="2.2">
+
+	   <!-- JSF and Spring are integrated -->
+   <application>
+      <variable-resolver>
+         org.springframework.web.jsf.DelegatingVariableResolver
+      </variable-resolver>
+   </application>
+   
+   <application>
+   <locale-config>
+      <default-locale>en</default-locale>
+      <supported-locale>pl</supported-locale>
+   </locale-config>
+   <resource-bundle>
+      <base-name>messages</base-name>
+      <var>msg</var>
+   </resource-bundle>
+</application>
+
+
+ <!-- configuration of navigation rules -->
+   <navigation-rule>
+     <from-view-id>/view/LogIN.xhtml</from-view-id>
+      <navigation-case>
+         <from-outcome>success</from-outcome>
+            <to-view-id>/view/success.xhtml</to-view-id>
+        </navigation-case>
+         <navigation-case>
+         <from-outcome>error</from-outcome>
+            <to-view-id>/view/error.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule> 
+	
+
+</faces-config>
