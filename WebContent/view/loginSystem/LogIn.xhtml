@@ -1,0 +1,49 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Welcome to currency exchange</title>
+	<meta http-equiv="Content-Type" content="text/html; utf-8"></meta>
+</h:head>
+<body>
+	<ui:composition>
+	<h2>Language</h2>
+	<h:form>
+		<h:commandLink styleClass="" action="#{language.changeLanguage('en')}"
+			value="English" />
+	</h:form>
+	<h:form>
+		<h:commandLink styleClass="" action="#{language.changeLanguage('pl')}"
+			value="Poland" />
+	</h:form>
+	<p>
+		<h:outputText value="#{msg['authorisationInfo']}" />
+	</p>
+
+	<h:form>
+		<table>
+			<tr>
+				<td><h:outputLabel for="login" value="#{msg['login']}" /></td>
+				<td><p:inputText id="login" value="#{logInMB.login}">
+						<p:ajax event="blur" update="loginMsg" />
+					</p:inputText> <p:message id="loginMsg" for="login" display="icon" /></td>
+			</tr>
+			<tr>
+				<td><h:outputLabel for="password" value="#{msg['password']}" /></td>
+				<td><p:inputText id="password" value="#{logInMB.password}">
+						<p:ajax event="blur" update="passwordMsg" />
+					</p:inputText> <p:message id="passwordMsg" for="password" display="icon" /></td>
+			</tr>
+			<tr>
+				<td><p:commandButton id="checkPerson"
+						value="#{msg['checkPerson']}" action="#{logInMB.checkPerson}"
+						ajax="false" /></td>
+			</tr>
+		</table>
+	</h:form>
+	</ui:composition>
+</body>
+</html>

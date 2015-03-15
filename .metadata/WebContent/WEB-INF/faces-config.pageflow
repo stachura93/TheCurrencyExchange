@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14262907897830" configfile="/TheCurrencyExchange/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="view/Authorisation.xhtml" id="pf14264190701557" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf14264190701558 pf14264190701559" path="/view/loginSystem/LogIn.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="view/loginSystem/success.xhtml" id="pf142641907015610" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf14264190701558" path="/view/loginSystem/success.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="view/loginSystem/error.xhtml" id="pf142641907015611" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf14264190701559" path="/view/loginSystem/error.xhtml"/>
+  <links id="pf14264190701558" target="pf142641907015610" source="pf14264190701557" outcome="success"/>
+  <links id="pf14264190701559" target="pf142641907015611" source="pf14264190701557" outcome="error"/>
+</pageflow:Pageflow>

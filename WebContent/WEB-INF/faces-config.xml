@@ -26,14 +26,14 @@
 
  <!-- configuration of navigation rules -->
    <navigation-rule>
-     <from-view-id>/view/LogIN.xhtml</from-view-id>
+     <from-view-id>/view/loginSystem/LogIn.xhtml</from-view-id>
       <navigation-case>
          <from-outcome>success</from-outcome>
-            <to-view-id>/view/success.xhtml</to-view-id>
+            <to-view-id>/view/loginSystem/success.xhtml</to-view-id>
         </navigation-case>
          <navigation-case>
          <from-outcome>error</from-outcome>
-            <to-view-id>/view/error.xhtml</to-view-id>
+            <to-view-id>/view/loginSystem/error.xhtml</to-view-id>
         </navigation-case>
     </navigation-rule> 
 	
